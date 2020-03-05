@@ -8,7 +8,7 @@ body { background-color: #FCEBB6;
 header { background-color: #D2B48C;
         height: 150px;
         background-image: url(javajamlogo.jpg);
-         background-repeat: no-repeat;		
+        background-repeat: no-repeat;		
 }
 h1 { padding-top: 45px;
     padding-left: 220px;
@@ -76,3 +76,62 @@ img { padding-left: 10px;
              padding-right: 2em;
 			 padding-bottom: 2em;
 }
+
+#mobile{display: none;}
+#desktop{display: inline;}
+@media only screen and (max-width: 1024px); {
+}
+body{margin: 0;
+    background-image: none;}
+
+#wrapper{min-width: 0;margin: 0;padding: 0; box-shadow: none; width: auto;}
+header{border-bottom: 5px solid #fef6c2;}
+
+h1{margin-top: 0;
+    margin-bottom: 1em;
+padding-top: 1em;
+padding-bottom: 1em;
+    font-size: 2em;}
+
+    nav{float: none; width: auto; padding-top: 0; margin: 10px; font-size: 1.3em;}
+
+    nav li{display: inline-block;}
+
+    nav a{padding: 1em; width: 8em; font-weight: bold;border-style: none;}
+
+    nav ul{padding:0;margin:0;}
+    #heroroad{margin: 0; padding: 0;}
+    #heromugs{margin: 0; padding: 0;}
+    #heroguitar{margin: 0; padding: 0;}
+    main{margin: 0; font-size: 90%;}
+
+@media only screen and (max-width:768px){
+    header{background-image: url(javajammini.jpg);
+    height: 128px;}
+    
+    h1{font-size: 2em; text-align: center; padding-left: 0;}
+    
+    nav{margin: 0;}
+    
+    nav a{display: block; padding: 0.2em; width: auto; border-bottom: 1px; border-bottom-color: #fef6c2;}
+    
+    nav li{display: block;}
+    
+    main{padding-top: 1px}
+    
+    h2{padding-top: 0.5em; padding-right: 0; padding-bottom: 0; padding-left: 0.5em; margin-right: 0.5em;}
+    
+    .details{padding-left: 0; padding-right: 0;}
+    #heroroad{background-image: none; height: auto;}
+    
+    #heromugs{background-image: none; height: auto;}
+    
+    #heroguitar{background-image: none; height: auto;}
+    
+    .floatleft{padding-left: 0.5em; padding-right: 0.5em;}
+    
+    #mobile{display: inline;}
+    #desktop{display: none;}
+    
+}
+
